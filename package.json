@@ -4,7 +4,7 @@
   "description": "Exploring react global state management libraries",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -noEmit && esbuild src/mobx/index.tsx --bundle --outfile=www/main.js --servedir=www",
+    "dev": "tsc -noEmit && esbuild mobx=src/mobx/index.tsx recoil=src/recoil/index.tsx zustand=src/zustand/index.tsx --bundle --outdir=www --servedir=www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
