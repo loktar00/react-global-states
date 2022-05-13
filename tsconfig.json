@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["dom", "es6"]
+    },
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "include": ["src/**/*"]
+}
